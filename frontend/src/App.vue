@@ -33,7 +33,7 @@
 
   <nav>
     <router-link class="btn" to="/">Downloads</router-link>
-    <router-link class="btn" to="/uploads">Uploads</router-link>
+<!--    <router-link class="btn" to="/uploads">Uploads</router-link>-->
   </nav>
   <router-view class="container" />
 </template>

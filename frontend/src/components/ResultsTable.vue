@@ -23,7 +23,9 @@
           <th>Location</th>
           <th>File Size</th>
           <th>Speed (MiB/s)</th>
-          <th>Time Taken</th>
+          <th>Time Taken (Browser)</th>
+          <th>Time Taken (Server)</th>
+          <th>Browser Latency Improvement</th>
         </tr>
       </thead>
       <tbody>
@@ -32,7 +34,9 @@
           <td>{{ result.location }}</td>
           <td>{{ result.fileName.replaceAll(".txt", "") }}</td>
           <td>{{ result.speedMiBps }}</td>
-          <td>{{ result.timeTaken }}s</td>
+          <td>{{ result.timeTakenClient }}ms</td>
+          <td>{{ result.timeTakenServer }}ms</td>
+          <td>{{ result.percentChange }}%</td>
         </tr>
       </tbody>
     </table>

@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "compile": "vue-cli-service build",
+    "compile": "vue-cli-service build --dest ../storage-backend/build --mode production",
     "test": "c8 mocha test --require @babel/register",
     "lint": "gts check",
     "fix": "gts fix"
   },
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.1.3",
     "core-js": "^3.8.3",
     "gts": "^3.1.0",
     "vue": "^3.2.13",

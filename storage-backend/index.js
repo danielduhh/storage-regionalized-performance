@@ -16,8 +16,11 @@
 const express = require('express');
 const cors = require('cors');
 const crypto = require('crypto');
+const path = require('path')
+const compression = require('compression')
+const {Storage} = require('@google-cloud/storage');
 
-const PORT = 3000;
+const PORT = 8080;
 
 const app = express();
 
@@ -44,43 +47,101 @@ const MD5_SUMS = Object.freeze({
     '256mib.txt': 'H1A55QvWaykMVmhNhVDGwg=='
 });
 
-// Allow HTTP requests from any origin 
-app.use(cors({
-    origin: '*'
-}));
+app.use(compression());
 
-app.get('/', (req, res) => {
-    res.send('This is the backend server to handle generating Signed URLs for uploads');
+// // Allow HTTP requests from any origin
+app.use(cors([
+    // {origin: 'https://regionalized-bucket-perf-mgsjbmdcoa-uw.a.run.app'},
+    // {origin: 'http://localhost:8080'},
+    {origin: 'https://storage.googleapis.com/rbf-test/index.html'}
+]))
+
+// const allowList = ['https://regionalized-bucket-perf-mgsjbmdcoa-uw.a.run.app', 'http://localhost:8080']
+// const corsOptions = {
+//     origin: function (origin, callback) {
+//         if (allowList.indexOf(origin) !== -1) {
+//             callback(null, true)
+//         } else {
+//             callback(new Error('Not allowed by CORS'))
+//         }
+//     }
+// }
+
+// app.use(cors(corsOptions))
+// app.use(function(req, res, next) {
+//     res.header("Access-Control-Allow-Origin", "*");
+//     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+//     next();
+// });
+
+// app.get('/', (req, res) => {
+//     res.sendFile(express.static(path.join(__dirname, 'build')))
+// });
+
+// /**
+//  * Handle GET request by generating and returning a signed URL to be used to upload a file.
+//  */
+// app.get('/:bucketName/:fileToUpload', async (req, res) => {
+//     const bucketName = req.params.bucketName;
+//     const fileToUpload = req.params.fileToUpload;
+//
+//     const {Storage} = require('@google-cloud/storage');
+//     const storage = new Storage();
+//
+//     // Append 40 random characters to the filename so that the same file can be uploaded simultaneously
+//     const uploadFileName = `${fileToUpload}-${crypto.randomBytes(RANDOM_BYTES_LENGTH).toString('hex')}`;
+//     console.log(`${fileToUpload} to be uploaded as ${uploadFileName} to bucket ${bucketName}`)
+//
+//     const options = {
+//         version: 'v4',
+//         action: 'write',
+//         expires: Date.now() + URL_EXPIRATION_TIME_INTERVAL,
+//         contentType: 'text/plain',
+//         contentMd5: MD5_SUMS[fileToUpload],
+//         extensionHeaders: {
+//             'x-goog-content-length-range': `${FILESIZE_BYTES[fileToUpload]},${FILESIZE_BYTES[fileToUpload]}`
+//         }
+//     }
+//
+//     const [url] = await storage.bucket(bucketName).file(uploadFileName).getSignedUrl(options);
+//
+//     res.send(url);
+// });
+
+app.get('/', async (req, res) => {
+    res.send('RBF API')
 });
 
-/**
- * Handle GET request by generating and returning a signed URL to be used to upload a file.
- */
-app.get('/:bucketName/:fileToUpload', async (req, res) => {
+
+app.get('/stream/:bucketName/:fileName', async (req, res) => {
     const bucketName = req.params.bucketName;
-    const fileToUpload = req.params.fileToUpload;
+    const fileName = req.params.fileName;
 
     const {Storage} = require('@google-cloud/storage');
     const storage = new Storage();
 
-    // Append 40 random characters to the filename so that the same file can be uploaded simultaneously
-    const uploadFileName = `${fileToUpload}-${crypto.randomBytes(RANDOM_BYTES_LENGTH).toString('hex')}`;
-    console.log(`${fileToUpload} to be uploaded as ${uploadFileName} to bucket ${bucketName}`)
+    await storage
+        .bucket(bucketName)
+        .file(fileName)
+        .createReadStream() //stream is created
+        .pipe(res)
+        .on('finish', () => {
+            // The file download is complete
+            console.log(`done`)
+        });
+});
 
-    const options = {
-        version: 'v4',
-        action: 'write',
-        expires: Date.now() + URL_EXPIRATION_TIME_INTERVAL, 
-        contentType: 'text/plain',
-        contentMd5: MD5_SUMS[fileToUpload],
-        extensionHeaders: {
-            'x-goog-content-length-range': `${FILESIZE_BYTES[fileToUpload]},${FILESIZE_BYTES[fileToUpload]}`
-        }
-    }
+app.get('/download/:bucketName/:fileName', async (req, res) => {
+    const bucketName = req.params.bucketName;
+    const fileName = req.params.fileName;
 
-    const [url] = await storage.bucket(bucketName).file(uploadFileName).getSignedUrl(options);
+    const {Storage} = require('@google-cloud/storage');
+    const storage = new Storage();
 
-    res.send(url);
+    let contents = await storage.bucket(bucketName).file(fileName).download()
+
+    res.write(contents.toString())
+    res.end()
 });
 
 app.listen(PORT, () => console.log(`Express server listening on port ${PORT}`));

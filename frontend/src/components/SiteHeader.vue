@@ -22,6 +22,8 @@
     <button class="btn" @click="onClick">About <i class="fa fa-question-circle" aria-hidden="true"/></button>
     </header>
     <h3 class="subtitle">{{ subtitle }}</h3>
+    <p>Browser - Static website running on multi-region Cloud Storage bucket (cache turned off). <br/>
+      Server - Node.js API running on us-west1 instance serving files via Storage client library </p>
   </div>
 </template>
 

@@ -16,15 +16,15 @@
 
 <template>
   <div>
-    <button class="btn" @click="reloadDownloads(FILESIZES_NAMES.small)">
-      2MiB
-    </button>
-    <button class="btn" @click="reloadDownloads(FILESIZES_NAMES.medium)">
-      64MiB
-    </button>
-    <button class="btn" @click="reloadDownloads(FILESIZES_NAMES.large)">
-      256MiB
-    </button>
+<!--    <button class="btn" @click="reloadDownloads(FILESIZES_NAMES.small)">-->
+<!--      2MiB-->
+<!--    </button>-->
+<!--    <button class="btn" @click="reloadDownloads(FILESIZES_NAMES.medium)">-->
+<!--      64MiB-->
+<!--    </button>-->
+<!--    <button class="btn" @click="reloadDownloads(FILESIZES_NAMES.large)">-->
+<!--      256MiB-->
+<!--    </button>-->
     <ProgressBar :progressWidth="progressBarWidth" />
     <ResultsTable :results="results" ref="resultsTable" />
   </div>
@@ -58,12 +58,14 @@ export default {
       this.progressBarWidth = progressBarCount.toString() + '%';
 
       this.results = [];
-      const fileName = currentFileSize;
+      // const fileName = currentFileSize;
 
       let downloads = new Downloads();
+    for (const fileName of ['8kib.txt', '256kib.txt', '2mib.txt']) {
       for (let bucketName in REGIONS_MAP) {
         try {
-          let result = await downloads.benchmarkSingleDownload(fileName, bucketName);
+          let result = await downloads.benchmarkSingleDownload(fileName,
+              bucketName);
           this.results = this.results.concat(result);
           this.results = this.results.sort((a, b) => {
             if (a.timeTaken < b.timeTaken) {
@@ -76,7 +78,7 @@ export default {
 
           //Updating progress bar
           progressBarCount =
-            100 * (this.results.length / Object.keys(REGIONS_MAP).length);
+              100 * (this.results.length / (Object.keys(REGIONS_MAP).length * 3) );
           this.progressBarWidth = progressBarCount.toString() + '%';
 
         } catch (e) {
@@ -84,6 +86,8 @@ export default {
           console.error(e);
         }
       }
+    }
+
     },
   },
   async created() {

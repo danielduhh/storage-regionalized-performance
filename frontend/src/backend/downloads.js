@@ -17,6 +17,7 @@
 // In these functions the 'fileName' parameter variables refer to filenames of '2mib.txt' '64mib.txt' and '256mib.txt'.
 import { REGIONS_MAP, FILESIZE_BYTES, FILESIZE_MIB, DEFAULT_TIME_TAKEN, FLOAT_ROUND_DIGITS } from './common.js';
 import axios from 'axios';
+// import {re} from '@babel/core/lib/vendor/import-meta-resolve';
 
 /**
  * Measure time to download files from a bucket to memory and get relevant benchmarks.
@@ -29,11 +30,34 @@ export class Downloads {
      * @param {string} URL - URL to send HTTP GET request.
      * @returns {number} -1 if download fails - so that a sequence of benchmarks can continue running even if one fails. 
      */
-    async getDurationOfGetRequest(URL) {
+    async getDurationOfGetRequest(URL, bucketName, fileName) {
         try {
-            const start = performance.now();
-            await axios.get(URL);
-            return performance.now() - start;
+
+            // const start = performance.now();
+            axios.interceptors.request.use(function (config) {
+                config.metadata = { startTime: performance.now()}
+                return config;
+            }, function (error) {
+                return Promise.reject(error);
+            });
+
+            axios.interceptors.response.use(function (response) {
+                response.config.metadata.endTime = performance.now()
+                response.duration = response.config.metadata.endTime - response.config.metadata.startTime
+                return response;
+            }, function (error) {
+                error.config.metadata.endTime = new Date();
+                error.duration = error.config.metadata.endTime - error.config.metadata.startTime;
+                return Promise.reject(error);
+            });
+
+            let response = await axios.get(URL);
+            let serverResponse = await axios.get(`https://regionalized-bucket-perf-mgsjbmdcoa-uw.a.run.app/download/${bucketName}/${fileName}`)
+            console.log(`server: ${bucketName}, client: ${response.duration}; server: ${serverResponse.duration}`)
+            return {
+                client: response.duration,
+                server: serverResponse.duration
+            };
         } catch (e) {
             return DEFAULT_TIME_TAKEN;
         }
@@ -62,10 +86,16 @@ export class Downloads {
         const bucketName = `gcsrbpa-${bucket}`;
 
         const URL = `https://storage.googleapis.com/${bucketName}/${fileName}`;
+        const {
+            client, server
+        } = await this.getDurationOfGetRequest(URL, bucketName, fileName);
 
-        const timeTaken = await this.getDurationOfGetRequest(URL);
+        return {
+            client: client,
+            server: server,
+        }
 
-        return timeTaken / 1000; // return in units of seconds
+        // return timeTaken / 1000; // return in units of seconds
     }
 
     /**
@@ -79,25 +109,47 @@ export class Downloads {
      * @returns {Object.<string, string>[]} 
      */
     async benchmarkSingleDownload(fileName, bucketName) {
-        const timeTaken = await this.getDurationInSeconds(fileName, bucketName);
+        const {
+            client, server
+        } = await this.getDurationInSeconds(fileName, bucketName);
 
         let fileSizeBytes = FILESIZE_BYTES[fileName] || fileName;
         let fileSizeMiB = FILESIZE_MIB[fileName] || fileName;
         let location = REGIONS_MAP[bucketName] || bucketName;
 
-        const speedBps = (fileSizeBytes / timeTaken) || DEFAULT_TIME_TAKEN;
-        const speedMiBps = (fileSizeMiB / timeTaken) || DEFAULT_TIME_TAKEN;
+        let clientSeconds = client / 1000;
+        // let serverSeconds = server / 1000;
+
+        const getPercentageChange =  (a, b) => {
+            let percent;
+            if(b !== 0) {
+                if(a !== 0) {
+                    percent = (b - a) / a * 100;
+                } else {
+                    percent = b * 100;
+                }
+            } else {
+                percent = - a * 100;
+            }
+            return Math.floor(percent);
+        }
+
+        const speedBps = (fileSizeBytes / clientSeconds) || DEFAULT_TIME_TAKEN;
+        const speedMiBps = (fileSizeMiB / clientSeconds) || DEFAULT_TIME_TAKEN;
 
         let result = [{
             'bucketName': bucketName,
             'location': location,
             'fileName': fileName,
-            'timeTaken': timeTaken.toFixed(FLOAT_ROUND_DIGITS),
+            'timeTakenClient': (client).toFixed(FLOAT_ROUND_DIGITS),
+            'timeTakenServer': (server).toFixed(FLOAT_ROUND_DIGITS),
+            'percentChange': getPercentageChange(client, server),
             'fileSizeBytes': String(fileSizeBytes),
             'speedBps': speedBps.toFixed(FLOAT_ROUND_DIGITS),
-            'speedMiBps': speedMiBps.toFixed(FLOAT_ROUND_DIGITS),
+            'speedMiBps': speedMiBps.toFixed(FLOAT_ROUND_DIGITS) ,
         }]
 
         return result;
     }
+
 }
