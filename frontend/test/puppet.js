@@ -16,7 +16,8 @@ const runTest = async () => {
   });
 
   await page.goto('https://storage.googleapis.com/rbf-test/index.html', {
-    waitUntil: 'domcontentloaded'
+    waitUntil: 'domcontentloaded',
+    timeout: 0
   });
 
   const allResultsSelector = 'table tbody tr:nth-child(33)';
