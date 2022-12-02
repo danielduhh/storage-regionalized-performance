@@ -1,0 +1,859 @@
+region,region_name,file_size,mib_s,browser,server,browser_boost_percent
+northamerica-northeast1,Montréal,8kib,0.222,35.200ms,548.700ms,1458%
+northamerica-northeast2,Toronto,8kib,0.193,40.500ms,360.000ms,788%
+us-central1,Iowa,8kib,0.279,28.000ms,233.100ms,732%
+us-east1,South Carolina,8kib,0.285,27.400ms,491.300ms,1693%
+us-east4,Northern Virginia,8kib,0.282,27.700ms,172.400ms,522%
+us-east5,Columbus,8kib,0.323,24.200ms,287.600ms,1088%
+us-south1,Dallas,8kib,0.374,20.900ms,263.700ms,1161%
+us-west1,Oregon,8kib,0.243,32.200ms,137.100ms,325%
+us-west2,Los Angeles,8kib,0.209,37.400ms,251.700ms,572%
+us-west3,Salt Lake City,8kib,0.337,23.200ms,191.900ms,727%
+us-west4,Las Vegas,8kib,0.391,20.000ms,223.300ms,1016%
+northamerica-northeast1,Montréal,256kib,2.825,88.500ms,659.200ms,644%
+northamerica-northeast2,Toronto,256kib,3.912,63.900ms,399.800ms,525%
+us-central1,Iowa,256kib,4.587,54.500ms,260.400ms,377%
+us-east1,South Carolina,256kib,4.664,53.600ms,650.000ms,1112%
+us-east4,Northern Virginia,256kib,3.429,72.900ms,618.700ms,748%
+us-east5,Columbus,256kib,4.529,55.200ms,392.600ms,611%
+us-south1,Dallas,256kib,4.682,53.400ms,313.200ms,486%
+us-west1,Oregon,256kib,4.072,61.400ms,155.200ms,152%
+us-west2,Los Angeles,256kib,4.195,59.600ms,461.400ms,674%
+us-west3,Salt Lake City,256kib,4.181,59.800ms,354.500ms,492%
+us-west4,Las Vegas,256kib,1.776,140.800ms,438.700ms,211%
+northamerica-northeast1,Montréal,2mib,5.903,338.800ms,1140.400ms,236%
+northamerica-northeast2,Toronto,2mib,3.367,594.000ms,1101.100ms,85%
+us-central1,Iowa,2mib,2.245,891.000ms,934.000ms,4%
+us-east1,South Carolina,2mib,6.040,331.100ms,2643.900ms,698%
+us-east4,Northern Virginia,2mib,4.876,410.200ms,921.500ms,124%
+us-east5,Columbus,2mib,4.322,462.800ms,2870.300ms,520%
+us-south1,Dallas,2mib,1.847,1082.600ms,1483.900ms,37%
+us-west1,Oregon,2mib,2.331,857.900ms,2168.300ms,152%
+us-west2,Los Angeles,2mib,2.241,892.500ms,1666.900ms,86%
+us-west3,Salt Lake City,2mib,2.716,736.300ms,998.900ms,35%
+us-west4,Las Vegas,2mib,2.393,835.700ms,1016.500ms,21%
+northamerica-northeast1,Montréal,8kib,0.149,52.600ms,508.400ms,866%
+northamerica-northeast2,Toronto,8kib,0.289,27.000ms,351.200ms,1200%
+us-central1,Iowa,8kib,0.341,22.900ms,183.800ms,702%
+us-east1,South Carolina,8kib,0.290,26.900ms,472.000ms,1654%
+us-east4,Northern Virginia,8kib,0.281,27.800ms,519.500ms,1768%
+us-east5,Columbus,8kib,0.313,25.000ms,359.800ms,1339%
+us-south1,Dallas,8kib,0.218,35.900ms,364.000ms,913%
+us-west1,Oregon,8kib,0.319,24.500ms,99.500ms,306%
+us-west2,Los Angeles,8kib,0.365,21.400ms,295.800ms,1282%
+us-west3,Salt Lake City,8kib,0.328,23.800ms,224.400ms,842%
+us-west4,Las Vegas,8kib,0.232,33.700ms,356.700ms,958%
+northamerica-northeast1,Montréal,256kib,3.030,82.500ms,631.600ms,665%
+northamerica-northeast2,Toronto,256kib,3.551,70.400ms,421.000ms,498%
+us-central1,Iowa,256kib,2.115,118.200ms,382.500ms,223%
+us-east1,South Carolina,256kib,3.666,68.200ms,688.400ms,909%
+us-east4,Northern Virginia,256kib,4.230,59.100ms,581.400ms,883%
+us-east5,Columbus,256kib,2.657,94.100ms,484.100ms,414%
+us-south1,Dallas,256kib,2.458,101.700ms,461.400ms,353%
+us-west1,Oregon,256kib,1.337,187.000ms,236.100ms,26%
+us-west2,Los Angeles,256kib,1.535,162.900ms,434.300ms,166%
+us-west3,Salt Lake City,256kib,1.574,158.800ms,227.300ms,43%
+us-west4,Las Vegas,256kib,2.458,101.700ms,470.700ms,362%
+northamerica-northeast1,Montréal,2mib,3.399,588.400ms,2906.400ms,393%
+northamerica-northeast2,Toronto,2mib,2.119,943.700ms,783.500ms,-17%
+us-central1,Iowa,2mib,4.579,436.800ms,1831.100ms,319%
+us-east1,South Carolina,2mib,2.745,728.500ms,2144.000ms,194%
+us-east4,Northern Virginia,2mib,1.802,1109.900ms,1664.900ms,50%
+us-east5,Columbus,2mib,1.685,1187.000ms,865.400ms,-28%
+us-south1,Dallas,2mib,2.231,896.300ms,1940.400ms,116%
+us-west1,Oregon,2mib,2.761,724.500ms,463.300ms,-37%
+us-west2,Los Angeles,2mib,6.521,306.700ms,779.900ms,154%
+us-west3,Salt Lake City,2mib,3.668,545.200ms,566.300ms,3%
+us-west4,Las Vegas,2mib,3.527,567.100ms,812.800ms,43%
+northamerica-northeast1,Montréal,8kib,0.167,46.700ms,511.800ms,995%
+northamerica-northeast2,Toronto,8kib,0.300,26.000ms,380.500ms,1363%
+us-central1,Iowa,8kib,0.350,22.300ms,144.500ms,547%
+us-east1,South Carolina,8kib,0.313,25.000ms,482.100ms,1828%
+us-east4,Northern Virginia,8kib,0.288,27.100ms,427.500ms,1477%
+us-east5,Columbus,8kib,0.287,27.200ms,297.500ms,993%
+us-south1,Dallas,8kib,0.374,20.900ms,305.300ms,1360%
+us-west1,Oregon,8kib,0.270,28.900ms,100.900ms,249%
+us-west2,Los Angeles,8kib,0.252,31.000ms,246.900ms,696%
+us-west3,Salt Lake City,8kib,0.365,21.400ms,265.400ms,1140%
+us-west4,Las Vegas,8kib,0.263,29.700ms,257.800ms,768%
+northamerica-northeast1,Montréal,256kib,2.927,85.400ms,652.600ms,664%
+northamerica-northeast2,Toronto,256kib,4.735,52.800ms,354.800ms,571%
+us-central1,Iowa,256kib,4.456,56.100ms,303.000ms,440%
+us-east1,South Carolina,256kib,1.440,173.600ms,805.400ms,363%
+us-east4,Northern Virginia,256kib,2.520,99.200ms,564.900ms,469%
+us-east5,Columbus,256kib,3.230,77.400ms,409.400ms,428%
+us-south1,Dallas,256kib,2.444,102.300ms,341.700ms,234%
+us-west1,Oregon,256kib,2.709,92.300ms,174.400ms,88%
+us-west2,Los Angeles,256kib,1.684,148.500ms,512.700ms,245%
+us-west3,Salt Lake City,256kib,1.493,167.400ms,365.600ms,118%
+us-west4,Las Vegas,256kib,1.677,149.100ms,502.100ms,236%
+northamerica-northeast1,Montréal,2mib,2.716,736.300ms,3253.600ms,341%
+northamerica-northeast2,Toronto,2mib,2.161,925.300ms,1637.200ms,76%
+us-central1,Iowa,2mib,3.999,500.100ms,3587.800ms,617%
+us-east1,South Carolina,2mib,1.853,1079.300ms,1972.400ms,82%
+us-east4,Northern Virginia,2mib,1.916,1043.900ms,1097.500ms,5%
+us-east5,Columbus,2mib,2.535,789.000ms,1411.200ms,78%
+us-south1,Dallas,2mib,2.158,926.900ms,1596.200ms,72%
+us-west1,Oregon,2mib,3.364,594.500ms,1060.100ms,78%
+us-west2,Los Angeles,2mib,5.088,393.100ms,861.300ms,119%
+us-west3,Salt Lake City,2mib,5.522,362.200ms,641.000ms,76%
+us-west4,Las Vegas,2mib,5.845,342.200ms,561.100ms,63%
+northamerica-northeast1,Montréal,8kib,0.303,25.800ms,533.400ms,1967%
+northamerica-northeast2,Toronto,8kib,0.308,25.400ms,363.900ms,1332%
+us-central1,Iowa,8kib,0.306,25.500ms,142.300ms,458%
+us-east1,South Carolina,8kib,0.355,22.000ms,482.200ms,2091%
+us-east4,Northern Virginia,8kib,0.169,46.200ms,499.600ms,981%
+us-east5,Columbus,8kib,0.237,33.000ms,316.700ms,859%
+us-south1,Dallas,8kib,0.278,28.100ms,313.600ms,1016%
+us-west1,Oregon,8kib,0.320,24.400ms,106.100ms,334%
+us-west2,Los Angeles,8kib,0.302,25.900ms,294.700ms,1037%
+us-west3,Salt Lake City,8kib,0.350,22.300ms,214.000ms,859%
+us-west4,Las Vegas,8kib,0.248,31.500ms,325.900ms,934%
+northamerica-northeast1,Montréal,256kib,3.019,82.800ms,665.300ms,703%
+northamerica-northeast2,Toronto,256kib,4.425,56.500ms,368.600ms,552%
+us-central1,Iowa,256kib,3.771,66.300ms,358.200ms,440%
+us-east1,South Carolina,256kib,4.990,50.100ms,1022.800ms,1941%
+us-east4,Northern Virginia,256kib,6.579,38.000ms,411.800ms,983%
+us-east5,Columbus,256kib,6.562,38.100ms,337.500ms,785%
+us-south1,Dallas,256kib,7.289,34.300ms,404.300ms,1078%
+us-west1,Oregon,256kib,1.928,129.700ms,264.800ms,104%
+us-west2,Los Angeles,256kib,5.000,50.000ms,299.600ms,499%
+us-west3,Salt Lake City,256kib,7.862,31.800ms,278.200ms,774%
+us-west4,Las Vegas,256kib,3.420,73.100ms,285.300ms,290%
+northamerica-northeast1,Montréal,2mib,8.929,224.000ms,979.600ms,337%
+northamerica-northeast2,Toronto,2mib,2.224,899.200ms,1165.800ms,29%
+us-central1,Iowa,2mib,2.726,733.600ms,1593.300ms,117%
+us-east1,South Carolina,2mib,9.443,211.800ms,2544.500ms,1101%
+us-east4,Northern Virginia,2mib,5.280,378.800ms,3288.500ms,768%
+us-east5,Columbus,2mib,1.504,1330.200ms,1344.700ms,1%
+us-south1,Dallas,2mib,3.670,544.900ms,2228.800ms,309%
+us-west1,Oregon,2mib,2.349,851.300ms,1634.800ms,92%
+us-west2,Los Angeles,2mib,9.852,203.000ms,2069.700ms,919%
+us-west3,Salt Lake City,2mib,4.480,446.400ms,965.400ms,116%
+us-west4,Las Vegas,2mib,3.262,613.200ms,866.300ms,41%
+northamerica-northeast1,Montréal,8kib,0.207,37.700ms,521.600ms,1283%
+northamerica-northeast2,Toronto,8kib,0.332,23.500ms,441.000ms,1776%
+us-central1,Iowa,8kib,0.305,25.600ms,230.100ms,798%
+us-east1,South Carolina,8kib,0.310,25.200ms,545.200ms,2063%
+us-east4,Northern Virginia,8kib,0.316,24.700ms,416.800ms,1587%
+us-east5,Columbus,8kib,0.266,29.400ms,284.900ms,869%
+us-south1,Dallas,8kib,0.272,28.700ms,293.500ms,922%
+us-west1,Oregon,8kib,0.298,26.200ms,92.100ms,251%
+us-west2,Los Angeles,8kib,0.432,18.100ms,248.900ms,1275%
+us-west3,Salt Lake City,8kib,0.340,23.000ms,214.500ms,832%
+us-west4,Las Vegas,8kib,0.289,27.000ms,309.800ms,1047%
+northamerica-northeast1,Montréal,256kib,3.365,74.300ms,655.800ms,782%
+northamerica-northeast2,Toronto,256kib,5.061,49.400ms,369.700ms,648%
+us-central1,Iowa,256kib,5.061,49.400ms,274.000ms,454%
+us-east1,South Carolina,256kib,5.092,49.100ms,336.400ms,585%
+us-east4,Northern Virginia,256kib,4.274,58.500ms,578.500ms,888%
+us-east5,Columbus,256kib,5.308,47.100ms,410.100ms,770%
+us-south1,Dallas,256kib,5.800,43.100ms,395.200ms,816%
+us-west1,Oregon,256kib,5.308,47.100ms,227.200ms,382%
+us-west2,Los Angeles,256kib,5.787,43.200ms,366.700ms,748%
+us-west3,Salt Lake City,256kib,5.176,48.300ms,271.600ms,462%
+us-west4,Las Vegas,256kib,5.123,48.800ms,285.100ms,484%
+northamerica-northeast1,Montréal,2mib,6.525,306.500ms,927.500ms,202%
+northamerica-northeast2,Toronto,2mib,3.685,542.800ms,1077.700ms,98%
+us-central1,Iowa,2mib,2.135,936.900ms,951.900ms,1%
+us-east1,South Carolina,2mib,2.321,861.800ms,2913.200ms,238%
+us-east4,Northern Virginia,2mib,2.592,771.600ms,1739.900ms,125%
+us-east5,Columbus,2mib,3.257,614.100ms,3540.300ms,476%
+us-south1,Dallas,2mib,1.534,1304.200ms,2634.100ms,101%
+us-west1,Oregon,2mib,2.929,682.900ms,2640.500ms,286%
+us-west2,Los Angeles,2mib,2.417,827.400ms,791.500ms,-5%
+us-west3,Salt Lake City,2mib,3.147,635.500ms,730.900ms,15%
+us-west4,Las Vegas,2mib,4.385,456.100ms,797.800ms,74%
+northamerica-northeast1,Montréal,8kib,0.169,46.100ms,518.500ms,1024%
+northamerica-northeast2,Toronto,8kib,0.298,26.200ms,359.100ms,1270%
+us-central1,Iowa,8kib,0.297,26.300ms,145.400ms,452%
+us-east1,South Carolina,8kib,0.283,27.600ms,489.100ms,1672%
+us-east4,Northern Virginia,8kib,0.337,23.200ms,424.000ms,1727%
+us-east5,Columbus,8kib,0.262,29.800ms,296.500ms,894%
+us-south1,Dallas,8kib,0.320,24.400ms,298.600ms,1123%
+us-west1,Oregon,8kib,0.277,28.200ms,84.300ms,198%
+us-west2,Los Angeles,8kib,0.257,30.400ms,243.300ms,700%
+us-west3,Salt Lake City,8kib,0.374,20.900ms,117.500ms,462%
+us-west4,Las Vegas,8kib,0.289,27.000ms,228.300ms,745%
+northamerica-northeast1,Montréal,256kib,3.397,73.600ms,629.800ms,755%
+northamerica-northeast2,Toronto,256kib,4.303,58.100ms,402.000ms,591%
+us-central1,Iowa,256kib,4.864,51.400ms,245.900ms,378%
+us-east1,South Carolina,256kib,4.401,56.800ms,699.500ms,1131%
+us-east4,Northern Virginia,256kib,3.303,75.700ms,595.900ms,687%
+us-east5,Columbus,256kib,3.805,65.700ms,417.000ms,534%
+us-south1,Dallas,256kib,3.374,74.100ms,348.200ms,369%
+us-west1,Oregon,256kib,2.131,117.300ms,202.200ms,72%
+us-west2,Los Angeles,256kib,2.294,109.000ms,533.200ms,389%
+us-west3,Salt Lake City,256kib,1.539,162.400ms,306.800ms,88%
+us-west4,Las Vegas,256kib,1.503,166.300ms,403.900ms,142%
+northamerica-northeast1,Montréal,2mib,2.579,775.400ms,1147.100ms,47%
+northamerica-northeast2,Toronto,2mib,2.908,687.700ms,486.300ms,-30%
+us-central1,Iowa,2mib,5.747,348.000ms,1111.900ms,219%
+us-east1,South Carolina,2mib,2.963,675.100ms,1862.900ms,175%
+us-east4,Northern Virginia,2mib,4.549,439.700ms,3793.200ms,762%
+us-east5,Columbus,2mib,1.730,1155.900ms,2319.200ms,100%
+us-south1,Dallas,2mib,2.115,945.800ms,3184.400ms,236%
+us-west1,Oregon,2mib,2.689,743.800ms,562.300ms,-25%
+us-west2,Los Angeles,2mib,3.629,551.100ms,1041.900ms,89%
+us-west3,Salt Lake City,2mib,4.204,475.700ms,628.000ms,32%
+us-west4,Las Vegas,2mib,3.070,651.500ms,560.600ms,-14%
+northamerica-northeast1,Montréal,8kib,0.167,46.800ms,559.100ms,1094%
+northamerica-northeast2,Toronto,8kib,0.199,39.200ms,369.300ms,842%
+us-central1,Iowa,8kib,0.151,51.900ms,164.500ms,216%
+us-east1,South Carolina,8kib,0.219,35.700ms,165.800ms,364%
+us-east4,Northern Virginia,8kib,0.217,36.000ms,486.400ms,1251%
+us-east5,Columbus,8kib,0.263,29.700ms,302.700ms,919%
+us-south1,Dallas,8kib,0.330,23.700ms,364.600ms,1438%
+us-west1,Oregon,8kib,0.273,28.600ms,166.700ms,482%
+us-west2,Los Angeles,8kib,0.114,68.400ms,288.000ms,321%
+us-west3,Salt Lake City,8kib,0.340,23.000ms,279.600ms,1115%
+us-west4,Las Vegas,8kib,0.167,46.700ms,287.400ms,515%
+northamerica-northeast1,Montréal,256kib,2.841,88.000ms,661.800ms,652%
+northamerica-northeast2,Toronto,256kib,3.731,67.000ms,370.100ms,452%
+us-central1,Iowa,256kib,4.340,57.600ms,309.700ms,437%
+us-east1,South Carolina,256kib,5.519,45.300ms,666.900ms,1372%
+us-east4,Northern Virginia,256kib,3.472,72.000ms,621.800ms,763%
+us-east5,Columbus,256kib,4.409,56.700ms,349.000ms,515%
+us-south1,Dallas,256kib,4.153,60.200ms,400.100ms,564%
+us-west1,Oregon,256kib,3.660,68.300ms,225.000ms,229%
+us-west2,Los Angeles,256kib,3.968,63.000ms,325.900ms,417%
+us-west3,Salt Lake City,256kib,4.230,59.100ms,265.500ms,349%
+us-west4,Las Vegas,256kib,3.177,78.700ms,318.000ms,304%
+northamerica-northeast1,Montréal,2mib,5.679,352.200ms,897.300ms,154%
+northamerica-northeast2,Toronto,2mib,2.943,679.500ms,1130.500ms,66%
+us-central1,Iowa,2mib,1.924,1039.400ms,988.800ms,-5%
+us-east1,South Carolina,2mib,2.927,683.400ms,1237.300ms,81%
+us-east4,Northern Virginia,2mib,4.803,416.400ms,1854.800ms,345%
+us-east5,Columbus,2mib,3.349,597.200ms,3024.200ms,406%
+us-south1,Dallas,2mib,1.716,1165.400ms,1739.600ms,49%
+us-west1,Oregon,2mib,2.813,710.900ms,2783.800ms,291%
+us-west2,Los Angeles,2mib,4.640,431.000ms,2904.500ms,573%
+us-west3,Salt Lake City,2mib,2.380,840.500ms,1353.200ms,60%
+us-west4,Las Vegas,2mib,3.085,648.300ms,1121.100ms,72%
+northamerica-northeast1,Montréal,8kib,0.179,43.700ms,532.700ms,1118%
+northamerica-northeast2,Toronto,8kib,0.161,48.400ms,366.900ms,658%
+us-central1,Iowa,8kib,0.221,35.300ms,165.000ms,367%
+us-east1,South Carolina,8kib,0.311,25.100ms,510.900ms,1935%
+us-east4,Northern Virginia,8kib,0.320,24.400ms,445.600ms,1726%
+us-east5,Columbus,8kib,0.334,23.400ms,368.200ms,1473%
+us-south1,Dallas,8kib,0.241,32.400ms,315.900ms,875%
+us-west1,Oregon,8kib,0.365,21.400ms,232.800ms,987%
+us-west2,Los Angeles,8kib,0.270,28.900ms,278.600ms,864%
+us-west3,Salt Lake City,8kib,0.145,53.900ms,224.400ms,316%
+us-west4,Las Vegas,8kib,0.254,30.700ms,221.200ms,620%
+northamerica-northeast1,Montréal,256kib,2.897,86.300ms,656.100ms,660%
+northamerica-northeast2,Toronto,256kib,4.355,57.400ms,368.100ms,541%
+us-central1,Iowa,256kib,5.020,49.800ms,239.900ms,381%
+us-east1,South Carolina,256kib,4.836,51.700ms,660.800ms,1178%
+us-east4,Northern Virginia,256kib,7.310,34.200ms,558.500ms,1533%
+us-east5,Columbus,256kib,7.837,31.900ms,234.400ms,634%
+us-south1,Dallas,256kib,7.418,33.700ms,291.200ms,764%
+us-west1,Oregon,256kib,8.929,28.000ms,126.000ms,350%
+us-west2,Los Angeles,256kib,8.306,30.100ms,356.600ms,1084%
+us-west3,Salt Lake City,256kib,6.281,39.800ms,258.000ms,548%
+us-west4,Las Vegas,256kib,5.219,47.900ms,320.500ms,569%
+northamerica-northeast1,Montréal,2mib,6.008,332.900ms,1027.100ms,208%
+northamerica-northeast2,Toronto,2mib,4.895,408.600ms,1001.900ms,145%
+us-central1,Iowa,2mib,2.878,694.900ms,1321.600ms,90%
+us-east1,South Carolina,2mib,2.567,779.000ms,3164.300ms,306%
+us-east4,Northern Virginia,2mib,4.653,429.800ms,1121.000ms,160%
+us-east5,Columbus,2mib,5.816,343.900ms,2783.900ms,709%
+us-south1,Dallas,2mib,1.625,1231.000ms,979.300ms,-21%
+us-west1,Oregon,2mib,1.921,1041.000ms,766.400ms,-27%
+us-west2,Los Angeles,2mib,3.192,626.500ms,2013.900ms,221%
+us-west3,Salt Lake City,2mib,2.825,707.900ms,2215.200ms,212%
+us-west4,Las Vegas,2mib,2.277,878.200ms,823.600ms,-7%
+northamerica-northeast1,Montréal,8kib,0.196,39.900ms,497.800ms,1147%
+northamerica-northeast2,Toronto,8kib,0.294,26.600ms,359.200ms,1250%
+us-central1,Iowa,8kib,0.405,19.300ms,135.800ms,603%
+us-east1,South Carolina,8kib,0.224,34.800ms,503.800ms,1347%
+us-east4,Northern Virginia,8kib,0.318,24.600ms,423.100ms,1619%
+us-east5,Columbus,8kib,0.270,28.900ms,288.500ms,898%
+us-south1,Dallas,8kib,0.432,18.100ms,274.100ms,1414%
+us-west1,Oregon,8kib,0.226,34.600ms,119.500ms,245%
+us-west2,Los Angeles,8kib,0.263,29.700ms,233.000ms,684%
+us-west3,Salt Lake City,8kib,0.323,24.200ms,242.500ms,902%
+us-west4,Las Vegas,8kib,0.326,24.000ms,270.700ms,1027%
+northamerica-northeast1,Montréal,256kib,2.762,90.500ms,663.900ms,633%
+northamerica-northeast2,Toronto,256kib,4.266,58.600ms,368.800ms,529%
+us-central1,Iowa,256kib,4.579,54.600ms,236.700ms,333%
+us-east1,South Carolina,256kib,5.531,45.200ms,653.400ms,1345%
+us-east4,Northern Virginia,256kib,4.921,50.800ms,566.000ms,1014%
+us-east5,Columbus,256kib,4.950,50.500ms,418.500ms,728%
+us-south1,Dallas,256kib,3.536,70.700ms,444.800ms,529%
+us-west1,Oregon,256kib,2.390,104.600ms,173.700ms,66%
+us-west2,Los Angeles,256kib,2.784,89.800ms,383.900ms,327%
+us-west3,Salt Lake City,256kib,1.155,216.400ms,488.900ms,125%
+us-west4,Las Vegas,256kib,1.723,145.100ms,399.600ms,175%
+northamerica-northeast1,Montréal,2mib,1.763,1134.400ms,1125.200ms,-1%
+northamerica-northeast2,Toronto,2mib,2.888,692.500ms,2421.100ms,249%
+us-central1,Iowa,2mib,5.389,371.100ms,993.600ms,167%
+us-east1,South Carolina,2mib,4.808,416.000ms,1134.200ms,172%
+us-east4,Northern Virginia,2mib,2.869,697.200ms,2166.300ms,210%
+us-east5,Columbus,2mib,1.695,1179.800ms,2232.500ms,89%
+us-south1,Dallas,2mib,2.008,995.800ms,2999.100ms,201%
+us-west1,Oregon,2mib,2.787,717.600ms,1438.500ms,100%
+us-west2,Los Angeles,2mib,3.935,508.300ms,667.500ms,31%
+us-west3,Salt Lake City,2mib,3.416,585.400ms,864.800ms,47%
+us-west4,Las Vegas,2mib,4.075,490.800ms,825.100ms,68%
+northamerica-northeast1,Montréal,8kib,0.218,35.900ms,578.500ms,1511%
+northamerica-northeast2,Toronto,8kib,0.206,37.900ms,350.000ms,823%
+us-central1,Iowa,8kib,0.254,30.800ms,149.000ms,383%
+us-east1,South Carolina,8kib,0.298,26.200ms,469.900ms,1693%
+us-east4,Northern Virginia,8kib,0.372,21.000ms,438.900ms,1989%
+us-east5,Columbus,8kib,0.399,19.600ms,308.100ms,1471%
+us-south1,Dallas,8kib,0.360,21.700ms,351.100ms,1517%
+us-west1,Oregon,8kib,0.405,19.300ms,92.300ms,378%
+us-west2,Los Angeles,8kib,0.263,29.700ms,236.500ms,696%
+us-west3,Salt Lake City,8kib,0.265,29.500ms,132.200ms,348%
+us-west4,Las Vegas,8kib,0.363,21.500ms,216.900ms,908%
+northamerica-northeast1,Montréal,256kib,2.317,107.900ms,661.700ms,513%
+northamerica-northeast2,Toronto,256kib,3.943,63.400ms,452.100ms,613%
+us-central1,Iowa,256kib,5.020,49.800ms,259.900ms,421%
+us-east1,South Carolina,256kib,4.505,55.500ms,722.700ms,1202%
+us-east4,Northern Virginia,256kib,6.494,38.500ms,554.400ms,1340%
+us-east5,Columbus,256kib,7.886,31.700ms,360.100ms,1035%
+us-south1,Dallas,256kib,5.081,49.200ms,343.000ms,597%
+us-west1,Oregon,256kib,6.083,41.100ms,139.600ms,239%
+us-west2,Los Angeles,256kib,6.345,39.400ms,321.800ms,716%
+us-west3,Salt Lake City,256kib,1.360,183.800ms,291.500ms,58%
+us-west4,Las Vegas,256kib,4.425,56.500ms,313.400ms,454%
+northamerica-northeast1,Montréal,2mib,5.729,349.100ms,1148.700ms,229%
+northamerica-northeast2,Toronto,2mib,2.318,862.800ms,1268.700ms,47%
+us-central1,Iowa,2mib,2.676,747.500ms,806.800ms,7%
+us-east1,South Carolina,2mib,3.910,511.500ms,1180.600ms,130%
+us-east4,Northern Virginia,2mib,5.053,395.800ms,1590.100ms,301%
+us-east5,Columbus,2mib,3.750,533.300ms,2950.300ms,453%
+us-south1,Dallas,2mib,1.700,1176.700ms,1723.700ms,46%
+us-west1,Oregon,2mib,2.069,966.800ms,1417.300ms,46%
+us-west2,Los Angeles,2mib,2.194,911.600ms,901.900ms,-2%
+us-west3,Salt Lake City,2mib,3.632,550.600ms,1472.200ms,167%
+us-west4,Las Vegas,2mib,2.460,813.000ms,856.400ms,5%
+northamerica-northeast1,Montréal,8kib,0.230,33.900ms,500.100ms,1375%
+northamerica-northeast2,Toronto,8kib,0.268,29.200ms,357.600ms,1124%
+us-central1,Iowa,8kib,0.323,24.200ms,147.200ms,508%
+us-east1,South Carolina,8kib,0.216,36.100ms,229.800ms,536%
+us-east4,Northern Virginia,8kib,0.282,27.700ms,418.700ms,1411%
+us-east5,Columbus,8kib,0.279,28.000ms,295.300ms,954%
+us-south1,Dallas,8kib,0.197,39.600ms,269.800ms,581%
+us-west1,Oregon,8kib,0.295,26.500ms,103.400ms,290%
+us-west2,Los Angeles,8kib,0.224,34.800ms,321.900ms,825%
+us-west3,Salt Lake City,8kib,0.262,29.800ms,214.600ms,620%
+us-west4,Las Vegas,8kib,0.269,29.000ms,225.000ms,675%
+northamerica-northeast1,Montréal,256kib,3.311,75.500ms,647.000ms,756%
+northamerica-northeast2,Toronto,256kib,4.638,53.900ms,425.900ms,690%
+us-central1,Iowa,256kib,5.605,44.600ms,377.900ms,747%
+us-east1,South Carolina,256kib,3.870,64.600ms,746.800ms,1056%
+us-east4,Northern Virginia,256kib,4.690,53.300ms,626.200ms,1074%
+us-east5,Columbus,256kib,4.673,53.500ms,344.400ms,543%
+us-south1,Dallas,256kib,3.676,68.000ms,334.500ms,391%
+us-west1,Oregon,256kib,2.104,118.800ms,196.200ms,65%
+us-west2,Los Angeles,256kib,2.621,95.400ms,552.100ms,478%
+us-west3,Salt Lake City,256kib,1.436,174.100ms,368.200ms,111%
+us-west4,Las Vegas,256kib,1.715,145.800ms,536.900ms,268%
+northamerica-northeast1,Montréal,2mib,2.687,744.200ms,1366.400ms,83%
+northamerica-northeast2,Toronto,2mib,3.008,665.000ms,2655.700ms,299%
+us-central1,Iowa,2mib,4.660,429.200ms,3072.600ms,615%
+us-east1,South Carolina,2mib,2.784,718.300ms,2605.200ms,262%
+us-east4,Northern Virginia,2mib,6.367,314.100ms,3060.100ms,874%
+us-east5,Columbus,2mib,4.019,497.600ms,1102.900ms,121%
+us-south1,Dallas,2mib,2.219,901.300ms,1375.900ms,52%
+us-west1,Oregon,2mib,6.437,310.700ms,1302.900ms,319%
+us-west2,Los Angeles,2mib,4.234,472.400ms,803.800ms,70%
+us-west3,Salt Lake City,2mib,3.410,586.500ms,547.300ms,-7%
+us-west4,Las Vegas,2mib,5.824,343.400ms,547.600ms,59%
+northamerica-northeast1,Montréal,8kib,0.126,62.000ms,531.400ms,757%
+northamerica-northeast2,Toronto,8kib,0.246,31.700ms,363.900ms,1047%
+us-central1,Iowa,8kib,0.297,26.300ms,163.900ms,523%
+us-east1,South Carolina,8kib,0.285,27.400ms,493.300ms,1700%
+us-east4,Northern Virginia,8kib,0.308,25.400ms,460.900ms,1714%
+us-east5,Columbus,8kib,0.422,18.500ms,358.400ms,1837%
+us-south1,Dallas,8kib,0.226,34.500ms,375.500ms,988%
+us-west1,Oregon,8kib,0.261,29.900ms,93.800ms,213%
+us-west2,Los Angeles,8kib,0.338,23.100ms,257.400ms,1014%
+us-west3,Salt Lake City,8kib,0.247,31.600ms,122.900ms,288%
+us-west4,Las Vegas,8kib,0.332,23.500ms,250.300ms,965%
+northamerica-northeast1,Montréal,256kib,3.106,80.500ms,660.000ms,719%
+northamerica-northeast2,Toronto,256kib,4.780,52.300ms,469.500ms,797%
+us-central1,Iowa,256kib,4.058,61.600ms,288.600ms,368%
+us-east1,South Carolina,256kib,2.289,109.200ms,688.400ms,530%
+us-east4,Northern Virginia,256kib,2.508,99.700ms,897.400ms,800%
+us-east5,Columbus,256kib,2.222,112.500ms,399.800ms,255%
+us-south1,Dallas,256kib,2.140,116.800ms,435.200ms,272%
+us-west1,Oregon,256kib,1.324,188.800ms,226.600ms,20%
+us-west2,Los Angeles,256kib,1.505,166.100ms,438.900ms,164%
+us-west3,Salt Lake City,256kib,1.567,159.500ms,426.900ms,167%
+us-west4,Las Vegas,256kib,2.350,106.400ms,664.500ms,524%
+northamerica-northeast1,Montréal,2mib,4.294,465.800ms,2795.600ms,500%
+northamerica-northeast2,Toronto,2mib,2.171,921.300ms,1645.700ms,78%
+us-central1,Iowa,2mib,4.575,437.200ms,3708.400ms,748%
+us-east1,South Carolina,2mib,1.777,1125.300ms,1841.400ms,63%
+us-east4,Northern Virginia,2mib,1.633,1225.000ms,1782.300ms,45%
+us-east5,Columbus,2mib,2.082,960.400ms,1494.000ms,55%
+us-south1,Dallas,2mib,3.210,623.000ms,1112.900ms,78%
+us-west1,Oregon,2mib,5.009,399.300ms,1155.100ms,189%
+us-west2,Los Angeles,2mib,4.286,466.600ms,632.800ms,35%
+us-west3,Salt Lake City,2mib,5.792,345.300ms,786.600ms,127%
+us-west4,Las Vegas,2mib,6.398,312.600ms,528.100ms,68%
+northamerica-northeast1,Montréal,8kib,0.167,46.900ms,507.600ms,982%
+northamerica-northeast2,Toronto,8kib,0.211,37.100ms,349.600ms,842%
+us-central1,Iowa,8kib,0.337,23.200ms,308.300ms,1228%
+us-east1,South Carolina,8kib,0.352,22.200ms,227.900ms,926%
+us-east4,Northern Virginia,8kib,0.335,23.300ms,432.900ms,1757%
+us-east5,Columbus,8kib,0.275,28.400ms,305.100ms,974%
+us-south1,Dallas,8kib,0.407,19.200ms,276.600ms,1340%
+us-west1,Oregon,8kib,0.224,34.800ms,104.000ms,198%
+us-west2,Los Angeles,8kib,0.232,33.700ms,234.500ms,595%
+us-west3,Salt Lake City,8kib,0.370,21.100ms,239.300ms,1034%
+us-west4,Las Vegas,8kib,0.276,28.300ms,214.400ms,657%
+northamerica-northeast1,Montréal,256kib,2.854,87.600ms,822.500ms,838%
+northamerica-northeast2,Toronto,256kib,4.604,54.300ms,365.700ms,573%
+us-central1,Iowa,256kib,4.604,54.300ms,302.300ms,456%
+us-east1,South Carolina,256kib,3.788,66.000ms,343.500ms,420%
+us-east4,Northern Virginia,256kib,5.252,47.600ms,633.100ms,1230%
+us-east5,Columbus,256kib,3.467,72.100ms,570.700ms,691%
+us-south1,Dallas,256kib,4.480,55.800ms,395.200ms,608%
+us-west1,Oregon,256kib,2.224,112.400ms,202.800ms,80%
+us-west2,Los Angeles,256kib,2.717,92.000ms,396.400ms,330%
+us-west3,Salt Lake City,256kib,1.100,227.200ms,413.900ms,82%
+us-west4,Las Vegas,256kib,1.543,162.000ms,419.600ms,159%
+northamerica-northeast1,Montréal,2mib,2.575,776.700ms,1369.600ms,76%
+northamerica-northeast2,Toronto,2mib,3.014,663.500ms,1621.900ms,144%
+us-central1,Iowa,2mib,2.924,684.100ms,1365.300ms,99%
+us-east1,South Carolina,2mib,3.674,544.300ms,1257.900ms,131%
+us-east4,Northern Virginia,2mib,2.773,721.300ms,2178.300ms,201%
+us-east5,Columbus,2mib,1.678,1191.700ms,2516.800ms,111%
+us-south1,Dallas,2mib,2.333,857.100ms,835.800ms,-3%
+us-west1,Oregon,2mib,4.484,446.000ms,910.800ms,104%
+us-west2,Los Angeles,2mib,2.673,748.200ms,911.600ms,21%
+us-west3,Salt Lake City,2mib,3.717,538.000ms,725.700ms,34%
+us-west4,Las Vegas,2mib,3.027,660.800ms,886.200ms,34%
+northamerica-northeast1,Montréal,8kib,0.078,100.700ms,564.600ms,460%
+northamerica-northeast2,Toronto,8kib,0.222,35.200ms,374.600ms,964%
+us-central1,Iowa,8kib,0.161,48.400ms,167.300ms,245%
+us-east1,South Carolina,8kib,0.280,27.900ms,232.300ms,732%
+us-east4,Northern Virginia,8kib,0.303,25.800ms,480.200ms,1761%
+us-east5,Columbus,8kib,0.334,23.400ms,308.400ms,1217%
+us-south1,Dallas,8kib,0.347,22.500ms,310.100ms,1278%
+us-west1,Oregon,8kib,0.311,25.100ms,137.000ms,445%
+us-west2,Los Angeles,8kib,0.250,31.300ms,267.000ms,753%
+us-west3,Salt Lake City,8kib,0.244,32.000ms,230.000ms,618%
+us-west4,Las Vegas,8kib,0.309,25.300ms,339.900ms,1243%
+northamerica-northeast1,Montréal,256kib,2.959,84.500ms,654.000ms,673%
+northamerica-northeast2,Toronto,256kib,3.444,72.600ms,362.500ms,399%
+us-central1,Iowa,256kib,4.587,54.500ms,235.800ms,332%
+us-east1,South Carolina,256kib,4.072,61.400ms,782.500ms,1174%
+us-east4,Northern Virginia,256kib,3.765,66.400ms,584.400ms,780%
+us-east5,Columbus,256kib,4.664,53.600ms,455.700ms,750%
+us-south1,Dallas,256kib,4.296,58.200ms,300.700ms,416%
+us-west1,Oregon,256kib,4.771,52.400ms,132.000ms,151%
+us-west2,Los Angeles,256kib,4.153,60.200ms,181.100ms,200%
+us-west3,Salt Lake City,256kib,5.102,49.000ms,145.300ms,196%
+us-west4,Las Vegas,256kib,4.209,59.400ms,386.000ms,549%
+northamerica-northeast1,Montréal,2mib,5.378,371.900ms,929.500ms,149%
+northamerica-northeast2,Toronto,2mib,4.476,446.800ms,743.300ms,66%
+us-central1,Iowa,2mib,4.110,486.600ms,1264.600ms,159%
+us-east1,South Carolina,2mib,2.640,757.700ms,1700.300ms,124%
+us-east4,Northern Virginia,2mib,4.683,427.100ms,1795.900ms,320%
+us-east5,Columbus,2mib,2.350,851.100ms,1606.700ms,88%
+us-south1,Dallas,2mib,3.807,525.300ms,3591.000ms,583%
+us-west1,Oregon,2mib,2.101,951.800ms,785.000ms,-18%
+us-west2,Los Angeles,2mib,6.937,288.300ms,1888.100ms,554%
+us-west3,Salt Lake City,2mib,3.029,660.200ms,832.100ms,26%
+us-west4,Las Vegas,2mib,4.559,438.700ms,1362.600ms,210%
+northamerica-northeast1,Montréal,8kib,0.113,69.400ms,502.900ms,624%
+northamerica-northeast2,Toronto,8kib,0.354,22.100ms,363.800ms,1546%
+us-central1,Iowa,8kib,0.238,32.800ms,125.600ms,282%
+us-east1,South Carolina,8kib,0.286,27.300ms,465.600ms,1605%
+us-east4,Northern Virginia,8kib,0.349,22.400ms,189.100ms,744%
+us-east5,Columbus,8kib,0.285,27.400ms,373.500ms,1263%
+us-south1,Dallas,8kib,0.352,22.200ms,325.500ms,1366%
+us-west1,Oregon,8kib,0.221,35.400ms,205.300ms,479%
+us-west2,Los Angeles,8kib,0.259,30.200ms,251.500ms,732%
+us-west3,Salt Lake City,8kib,0.313,25.000ms,234.200ms,836%
+us-west4,Las Vegas,8kib,0.316,24.700ms,235.500ms,853%
+northamerica-northeast1,Montréal,256kib,3.012,83.000ms,815.800ms,882%
+northamerica-northeast2,Toronto,256kib,4.780,52.300ms,387.700ms,641%
+us-central1,Iowa,256kib,4.690,53.300ms,391.900ms,635%
+us-east1,South Carolina,256kib,1.696,147.400ms,695.500ms,371%
+us-east4,Northern Virginia,256kib,2.643,94.600ms,876.500ms,826%
+us-east5,Columbus,256kib,3.173,78.800ms,349.300ms,343%
+us-south1,Dallas,256kib,2.031,123.100ms,378.000ms,207%
+us-west1,Oregon,256kib,1.635,152.900ms,231.400ms,51%
+us-west2,Los Angeles,256kib,2.008,124.500ms,429.900ms,245%
+us-west3,Salt Lake City,256kib,1.638,152.600ms,280.200ms,83%
+us-west4,Las Vegas,256kib,1.922,130.100ms,383.500ms,194%
+northamerica-northeast1,Montréal,2mib,2.454,814.900ms,3097.700ms,280%
+northamerica-northeast2,Toronto,2mib,2.180,917.600ms,1654.100ms,80%
+us-central1,Iowa,2mib,4.625,432.400ms,3659.900ms,746%
+us-east1,South Carolina,2mib,1.669,1198.200ms,2264.700ms,89%
+us-east4,Northern Virginia,2mib,2.183,916.100ms,1748.500ms,90%
+us-east5,Columbus,2mib,2.140,934.400ms,1151.000ms,23%
+us-south1,Dallas,2mib,3.234,618.400ms,770.900ms,24%
+us-west1,Oregon,2mib,5.223,382.900ms,606.400ms,58%
+us-west2,Los Angeles,2mib,6.761,295.800ms,815.900ms,175%
+us-west3,Salt Lake City,2mib,3.401,588.100ms,968.500ms,64%
+us-west4,Las Vegas,2mib,5.993,333.700ms,650.700ms,94%
+northamerica-northeast1,Montréal,8kib,0.269,29.000ms,522.700ms,1702%
+northamerica-northeast2,Toronto,8kib,0.219,35.700ms,390.700ms,994%
+us-central1,Iowa,8kib,0.272,28.700ms,187.300ms,552%
+us-east1,South Carolina,8kib,0.310,25.200ms,497.400ms,1873%
+us-east4,Northern Virginia,8kib,0.241,32.400ms,433.100ms,1236%
+us-east5,Columbus,8kib,0.304,25.700ms,342.700ms,1233%
+us-south1,Dallas,8kib,0.243,32.100ms,324.700ms,911%
+us-west1,Oregon,8kib,0.311,25.100ms,219.700ms,775%
+us-west2,Los Angeles,8kib,0.201,38.800ms,264.800ms,582%
+us-west3,Salt Lake City,8kib,0.228,34.300ms,218.900ms,538%
+us-west4,Las Vegas,8kib,0.372,21.000ms,252.300ms,1101%
+northamerica-northeast1,Montréal,256kib,2.569,97.300ms,643.900ms,561%
+northamerica-northeast2,Toronto,256kib,4.139,60.400ms,390.900ms,547%
+us-central1,Iowa,256kib,4.817,51.900ms,255.500ms,392%
+us-east1,South Carolina,256kib,4.630,54.000ms,687.500ms,1173%
+us-east4,Northern Virginia,256kib,5.669,44.100ms,555.900ms,1160%
+us-east5,Columbus,256kib,7.418,33.700ms,350.800ms,940%
+us-south1,Dallas,256kib,6.143,40.700ms,313.500ms,670%
+us-west1,Oregon,256kib,6.010,41.600ms,123.900ms,197%
+us-west2,Los Angeles,256kib,7.003,35.700ms,464.400ms,1200%
+us-west3,Salt Lake City,256kib,5.682,44.000ms,209.900ms,377%
+us-west4,Las Vegas,256kib,3.906,64.000ms,347.000ms,442%
+northamerica-northeast1,Montréal,2mib,6.993,286.000ms,851.800ms,197%
+northamerica-northeast2,Toronto,2mib,4.041,494.900ms,886.700ms,79%
+us-central1,Iowa,2mib,2.838,704.600ms,1302.900ms,84%
+us-east1,South Carolina,2mib,2.084,959.700ms,2853.200ms,197%
+us-east4,Northern Virginia,2mib,2.908,687.700ms,861.500ms,25%
+us-east5,Columbus,2mib,3.417,585.300ms,2524.600ms,331%
+us-south1,Dallas,2mib,1.665,1200.900ms,2021.000ms,68%
+us-west1,Oregon,2mib,4.984,401.300ms,2879.300ms,617%
+us-west2,Los Angeles,2mib,5.365,372.800ms,2721.500ms,630%
+us-west3,Salt Lake City,2mib,2.314,864.200ms,1461.200ms,69%
+us-west4,Las Vegas,2mib,3.098,645.500ms,1076.500ms,66%
+northamerica-northeast1,Montréal,8kib,0.196,39.900ms,514.400ms,1189%
+northamerica-northeast2,Toronto,8kib,0.270,28.900ms,364.200ms,1160%
+us-central1,Iowa,8kib,0.305,25.600ms,145.000ms,466%
+us-east1,South Carolina,8kib,0.230,33.900ms,501.300ms,1378%
+us-east4,Northern Virginia,8kib,0.287,27.200ms,418.800ms,1439%
+us-east5,Columbus,8kib,0.274,28.500ms,304.100ms,967%
+us-south1,Dallas,8kib,0.407,19.200ms,281.400ms,1365%
+us-west1,Oregon,8kib,0.259,30.200ms,102.300ms,238%
+us-west2,Los Angeles,8kib,0.254,30.700ms,273.800ms,791%
+us-west3,Salt Lake City,8kib,0.332,23.500ms,128.500ms,446%
+us-west4,Las Vegas,8kib,0.244,32.000ms,117.600ms,267%
+northamerica-northeast1,Montréal,256kib,3.251,76.900ms,676.700ms,779%
+northamerica-northeast2,Toronto,256kib,4.570,54.700ms,365.000ms,567%
+us-central1,Iowa,256kib,4.655,53.700ms,310.300ms,477%
+us-east1,South Carolina,256kib,3.704,67.500ms,655.600ms,871%
+us-east4,Northern Virginia,256kib,3.693,67.700ms,574.900ms,749%
+us-east5,Columbus,256kib,3.556,70.300ms,496.400ms,606%
+us-south1,Dallas,256kib,3.628,68.900ms,394.700ms,472%
+us-west1,Oregon,256kib,2.959,84.500ms,194.400ms,130%
+us-west2,Los Angeles,256kib,2.577,97.000ms,389.400ms,301%
+us-west3,Salt Lake City,256kib,1.138,219.700ms,380.500ms,73%
+us-west4,Las Vegas,256kib,1.698,147.200ms,515.800ms,250%
+northamerica-northeast1,Montréal,2mib,2.673,748.300ms,1372.100ms,83%
+northamerica-northeast2,Toronto,2mib,3.019,662.400ms,1657.400ms,150%
+us-central1,Iowa,2mib,2.641,757.200ms,1520.500ms,100%
+us-east1,South Carolina,2mib,3.972,503.500ms,1108.400ms,120%
+us-east4,Northern Virginia,2mib,2.740,730.000ms,2114.300ms,189%
+us-east5,Columbus,2mib,1.840,1087.200ms,2271.500ms,108%
+us-south1,Dallas,2mib,1.940,1030.900ms,3166.100ms,207%
+us-west1,Oregon,2mib,2.519,793.900ms,1247.800ms,57%
+us-west2,Los Angeles,2mib,3.460,578.100ms,877.700ms,51%
+us-west3,Salt Lake City,2mib,3.342,598.500ms,992.900ms,65%
+us-west4,Las Vegas,2mib,4.754,420.700ms,577.100ms,37%
+northamerica-northeast1,Montréal,8kib,0.110,70.900ms,510.400ms,619%
+northamerica-northeast2,Toronto,8kib,0.305,25.600ms,436.700ms,1605%
+us-central1,Iowa,8kib,0.258,30.300ms,221.000ms,629%
+us-east1,South Carolina,8kib,0.256,30.500ms,182.600ms,498%
+us-east4,Northern Virginia,8kib,0.269,29.000ms,419.500ms,1346%
+us-east5,Columbus,8kib,0.370,21.100ms,294.600ms,1296%
+us-south1,Dallas,8kib,0.263,29.700ms,274.300ms,823%
+us-west1,Oregon,8kib,0.284,27.500ms,110.200ms,300%
+us-west2,Los Angeles,8kib,0.260,30.100ms,258.100ms,757%
+us-west3,Salt Lake City,8kib,0.323,24.200ms,263.300ms,988%
+us-west4,Las Vegas,8kib,0.340,23.000ms,248.400ms,979%
+northamerica-northeast1,Montréal,256kib,2.980,83.900ms,657.400ms,683%
+northamerica-northeast2,Toronto,256kib,3.888,64.300ms,499.900ms,677%
+us-central1,Iowa,256kib,4.013,62.300ms,287.600ms,361%
+us-east1,South Carolina,256kib,4.310,58.000ms,649.600ms,1020%
+us-east4,Northern Virginia,256kib,5.828,42.900ms,577.800ms,1246%
+us-east5,Columbus,256kib,6.112,40.900ms,382.600ms,835%
+us-south1,Dallas,256kib,5.787,43.200ms,338.100ms,682%
+us-west1,Oregon,256kib,7.331,34.100ms,150.000ms,339%
+us-west2,Los Angeles,256kib,5.708,43.800ms,669.100ms,1427%
+us-west3,Salt Lake City,256kib,4.078,61.300ms,321.100ms,423%
+us-west4,Las Vegas,256kib,2.488,100.500ms,347.400ms,245%
+northamerica-northeast1,Montréal,2mib,6.727,297.300ms,1328.200ms,346%
+northamerica-northeast2,Toronto,2mib,2.874,696.000ms,1330.500ms,91%
+us-central1,Iowa,2mib,2.001,999.300ms,1574.700ms,57%
+us-east1,South Carolina,2mib,8.299,241.000ms,1696.700ms,604%
+us-east4,Northern Virginia,2mib,2.577,776.000ms,1453.000ms,87%
+us-east5,Columbus,2mib,3.840,520.800ms,982.900ms,88%
+us-south1,Dallas,2mib,2.473,808.700ms,2020.700ms,149%
+us-west1,Oregon,2mib,2.597,770.200ms,781.400ms,1%
+us-west2,Los Angeles,2mib,12.698,157.500ms,1721.800ms,993%
+us-west3,Salt Lake City,2mib,2.093,955.600ms,1669.800ms,74%
+us-west4,Las Vegas,2mib,3.147,635.600ms,962.300ms,51%
+northamerica-northeast1,Montréal,8kib,0.266,29.400ms,550.500ms,1772%
+northamerica-northeast2,Toronto,8kib,0.189,41.300ms,397.600ms,862%
+us-central1,Iowa,8kib,0.249,31.400ms,162.000ms,415%
+us-east1,South Carolina,8kib,0.262,29.800ms,497.300ms,1568%
+us-east4,Northern Virginia,8kib,0.270,28.900ms,480.000ms,1560%
+us-east5,Columbus,8kib,0.306,25.500ms,294.800ms,1056%
+us-south1,Dallas,8kib,0.289,27.000ms,371.900ms,1277%
+us-west1,Oregon,8kib,0.319,24.500ms,204.200ms,733%
+us-west2,Los Angeles,8kib,0.292,26.800ms,245.300ms,815%
+us-west3,Salt Lake City,8kib,0.295,26.500ms,293.600ms,1007%
+us-west4,Las Vegas,8kib,0.346,22.600ms,216.600ms,858%
+northamerica-northeast1,Montréal,256kib,2.966,84.300ms,683.000ms,710%
+northamerica-northeast2,Toronto,256kib,3.181,78.600ms,360.000ms,358%
+us-central1,Iowa,256kib,3.434,72.800ms,321.700ms,341%
+us-east1,South Carolina,256kib,3.281,76.200ms,356.700ms,368%
+us-east4,Northern Virginia,256kib,4.771,52.400ms,343.000ms,554%
+us-east5,Columbus,256kib,4.417,56.600ms,362.500ms,540%
+us-south1,Dallas,256kib,5.285,47.300ms,296.900ms,527%
+us-west1,Oregon,256kib,4.753,52.600ms,148.800ms,182%
+us-west2,Los Angeles,256kib,4.230,59.100ms,387.800ms,556%
+us-west3,Salt Lake City,256kib,4.496,55.600ms,258.700ms,365%
+us-west4,Las Vegas,256kib,4.230,59.100ms,313.900ms,431%
+northamerica-northeast1,Montréal,2mib,5.891,339.500ms,901.300ms,165%
+northamerica-northeast2,Toronto,2mib,3.748,533.600ms,1093.900ms,105%
+us-central1,Iowa,2mib,2.133,937.800ms,951.700ms,1%
+us-east1,South Carolina,2mib,3.082,648.900ms,3080.000ms,374%
+us-east4,Northern Virginia,2mib,2.506,798.000ms,1786.200ms,123%
+us-east5,Columbus,2mib,3.299,606.300ms,3528.500ms,481%
+us-south1,Dallas,2mib,1.727,1158.200ms,2128.600ms,83%
+us-west1,Oregon,2mib,2.418,827.100ms,566.900ms,-32%
+us-west2,Los Angeles,2mib,4.600,434.800ms,1000.800ms,130%
+us-west3,Salt Lake City,2mib,1.777,1125.300ms,990.000ms,-13%
+us-west4,Las Vegas,2mib,2.948,678.500ms,871.600ms,28%
+northamerica-northeast1,Montréal,8kib,0.218,35.900ms,493.500ms,1274%
+northamerica-northeast2,Toronto,8kib,0.188,41.500ms,413.500ms,896%
+us-central1,Iowa,8kib,0.280,27.900ms,136.100ms,387%
+us-east1,South Carolina,8kib,0.275,28.400ms,497.100ms,1650%
+us-east4,Northern Virginia,8kib,0.379,20.600ms,430.900ms,1991%
+us-east5,Columbus,8kib,0.227,34.400ms,431.600ms,1154%
+us-south1,Dallas,8kib,0.355,22.000ms,266.000ms,1109%
+us-west1,Oregon,8kib,0.357,21.900ms,90.900ms,315%
+us-west2,Los Angeles,8kib,0.279,28.000ms,118.000ms,321%
+us-west3,Salt Lake City,8kib,0.370,21.100ms,241.800ms,1045%
+us-west4,Las Vegas,8kib,0.389,20.100ms,252.200ms,1154%
+northamerica-northeast1,Montréal,256kib,2.607,95.900ms,666.200ms,594%
+northamerica-northeast2,Toronto,256kib,3.748,66.700ms,446.800ms,569%
+us-central1,Iowa,256kib,5.061,49.400ms,261.000ms,428%
+us-east1,South Carolina,256kib,3.316,75.400ms,673.100ms,792%
+us-east4,Northern Virginia,256kib,4.472,55.900ms,580.800ms,938%
+us-east5,Columbus,256kib,4.604,54.300ms,332.100ms,511%
+us-south1,Dallas,256kib,5.459,45.800ms,384.800ms,740%
+us-west1,Oregon,256kib,4.921,50.800ms,208.900ms,311%
+us-west2,Los Angeles,256kib,5.531,45.200ms,365.300ms,708%
+us-west3,Salt Lake City,256kib,2.867,87.200ms,294.000ms,237%
+us-west4,Las Vegas,256kib,4.950,50.500ms,299.000ms,492%
+northamerica-northeast1,Montréal,2mib,5.729,349.100ms,1136.400ms,225%
+northamerica-northeast2,Toronto,2mib,2.481,806.000ms,1321.500ms,63%
+us-central1,Iowa,2mib,2.709,738.200ms,1396.200ms,89%
+us-east1,South Carolina,2mib,4.244,471.300ms,2355.400ms,399%
+us-east4,Northern Virginia,2mib,5.731,349.000ms,1140.800ms,226%
+us-east5,Columbus,2mib,3.683,543.100ms,965.300ms,77%
+us-south1,Dallas,2mib,2.395,835.200ms,2038.900ms,144%
+us-west1,Oregon,2mib,1.982,1009.000ms,845.400ms,-17%
+us-west2,Los Angeles,2mib,5.326,375.500ms,2381.100ms,534%
+us-west3,Salt Lake City,2mib,4.626,432.300ms,1007.000ms,132%
+us-west4,Las Vegas,2mib,2.731,732.200ms,1163.900ms,58%
+northamerica-northeast1,Montréal,8kib,0.304,25.700ms,569.800ms,2117%
+northamerica-northeast2,Toronto,8kib,0.246,31.800ms,485.500ms,1426%
+us-central1,Iowa,8kib,0.223,35.100ms,127.900ms,264%
+us-east1,South Carolina,8kib,0.264,29.600ms,480.200ms,1522%
+us-east4,Northern Virginia,8kib,0.297,26.300ms,425.700ms,1518%
+us-east5,Columbus,8kib,0.381,20.500ms,291.200ms,1320%
+us-south1,Dallas,8kib,0.207,37.700ms,342.700ms,809%
+us-west1,Oregon,8kib,0.277,28.200ms,233.500ms,728%
+us-west2,Los Angeles,8kib,0.268,29.100ms,258.000ms,786%
+us-west3,Salt Lake City,8kib,0.219,35.700ms,244.800ms,585%
+us-west4,Las Vegas,8kib,0.401,19.500ms,239.400ms,1127%
+northamerica-northeast1,Montréal,256kib,3.060,81.700ms,674.900ms,726%
+northamerica-northeast2,Toronto,256kib,4.230,59.100ms,381.200ms,545%
+us-central1,Iowa,256kib,4.209,59.400ms,242.000ms,307%
+us-east1,South Carolina,256kib,3.477,71.900ms,676.900ms,841%
+us-east4,Northern Virginia,256kib,5.030,49.700ms,566.400ms,1039%
+us-east5,Columbus,256kib,4.052,61.700ms,331.900ms,437%
+us-south1,Dallas,256kib,4.216,59.300ms,337.400ms,468%
+us-west1,Oregon,256kib,4.425,56.500ms,326.700ms,478%
+us-west2,Los Angeles,256kib,4.417,56.600ms,318.600ms,462%
+us-west3,Salt Lake City,256kib,3.748,66.700ms,173.400ms,159%
+us-west4,Las Vegas,256kib,4.613,54.200ms,369.500ms,581%
+northamerica-northeast1,Montréal,2mib,6.309,317.000ms,851.500ms,168%
+northamerica-northeast2,Toronto,2mib,2.976,672.000ms,1025.200ms,52%
+us-central1,Iowa,2mib,1.935,1033.500ms,967.300ms,-7%
+us-east1,South Carolina,2mib,2.918,685.300ms,2826.900ms,312%
+us-east4,Northern Virginia,2mib,2.595,770.800ms,1933.800ms,150%
+us-east5,Columbus,2mib,3.964,504.600ms,1383.000ms,174%
+us-south1,Dallas,2mib,1.541,1298.000ms,772.100ms,-41%
+us-west1,Oregon,2mib,1.967,1016.900ms,828.800ms,-19%
+us-west2,Los Angeles,2mib,3.625,551.800ms,2073.800ms,275%
+us-west3,Salt Lake City,2mib,4.324,462.500ms,737.700ms,59%
+us-west4,Las Vegas,2mib,4.351,459.700ms,2048.800ms,345%
+northamerica-northeast1,Montréal,8kib,0.298,26.200ms,564.800ms,2055%
+northamerica-northeast2,Toronto,8kib,0.183,42.700ms,381.000ms,792%
+us-central1,Iowa,8kib,0.162,48.300ms,180.100ms,272%
+us-east1,South Carolina,8kib,0.369,21.200ms,504.200ms,2278%
+us-east4,Northern Virginia,8kib,0.295,26.500ms,445.900ms,1582%
+us-east5,Columbus,8kib,0.323,24.200ms,301.800ms,1147%
+us-south1,Dallas,8kib,0.313,25.000ms,284.900ms,1039%
+us-west1,Oregon,8kib,0.253,30.900ms,119.200ms,285%
+us-west2,Los Angeles,8kib,0.427,18.300ms,233.300ms,1174%
+us-west3,Salt Lake City,8kib,0.340,23.000ms,224.200ms,874%
+us-west4,Las Vegas,8kib,0.103,76.100ms,242.800ms,219%
+northamerica-northeast1,Montréal,256kib,2.900,86.200ms,712.500ms,726%
+northamerica-northeast2,Toronto,256kib,3.411,73.300ms,400.300ms,446%
+us-central1,Iowa,256kib,4.209,59.400ms,460.800ms,675%
+us-east1,South Carolina,256kib,4.529,55.200ms,427.500ms,674%
+us-east4,Northern Virginia,256kib,3.962,63.100ms,600.000ms,850%
+us-east5,Columbus,256kib,4.181,59.800ms,436.700ms,630%
+us-south1,Dallas,256kib,4.417,56.600ms,432.800ms,664%
+us-west1,Oregon,256kib,4.673,53.500ms,329.000ms,514%
+us-west2,Los Angeles,256kib,4.690,53.300ms,388.900ms,629%
+us-west3,Salt Lake City,256kib,3.644,68.600ms,204.400ms,197%
+us-west4,Las Vegas,256kib,1.167,214.300ms,340.200ms,58%
+northamerica-northeast1,Montréal,2mib,5.759,347.300ms,930.300ms,167%
+northamerica-northeast2,Toronto,2mib,3.246,616.100ms,1172.100ms,90%
+us-central1,Iowa,2mib,2.187,914.300ms,864.400ms,-6%
+us-east1,South Carolina,2mib,6.015,332.500ms,2431.900ms,631%
+us-east4,Northern Virginia,2mib,3.660,546.500ms,1009.900ms,84%
+us-east5,Columbus,2mib,3.674,544.300ms,2960.500ms,443%
+us-south1,Dallas,2mib,1.616,1237.500ms,908.700ms,-27%
+us-west1,Oregon,2mib,1.715,1166.200ms,2102.600ms,80%
+us-west2,Los Angeles,2mib,2.282,876.300ms,1781.100ms,103%
+us-west3,Salt Lake City,2mib,2.308,866.600ms,952.400ms,9%
+us-west4,Las Vegas,2mib,2.436,820.900ms,3064.700ms,273%
+northamerica-northeast1,Montréal,8kib,0.148,52.800ms,565.600ms,971%
+northamerica-northeast2,Toronto,8kib,0.235,33.200ms,393.000ms,1083%
+us-central1,Iowa,8kib,0.162,48.300ms,147.400ms,205%
+us-east1,South Carolina,8kib,0.262,29.800ms,524.800ms,1661%
+us-east4,Northern Virginia,8kib,0.294,26.600ms,429.900ms,1516%
+us-east5,Columbus,8kib,0.298,26.200ms,358.400ms,1267%
+us-south1,Dallas,8kib,0.228,34.200ms,329.900ms,864%
+us-west1,Oregon,8kib,0.202,38.600ms,88.100ms,128%
+us-west2,Los Angeles,8kib,0.237,33.000ms,233.800ms,608%
+us-west3,Salt Lake City,8kib,0.340,23.000ms,346.700ms,1407%
+us-west4,Las Vegas,8kib,0.347,22.500ms,206.500ms,817%
+northamerica-northeast1,Montréal,256kib,2.806,89.100ms,689.400ms,673%
+northamerica-northeast2,Toronto,256kib,3.931,63.600ms,451.500ms,609%
+us-central1,Iowa,256kib,3.650,68.500ms,378.700ms,452%
+us-east1,South Carolina,256kib,3.592,69.600ms,655.800ms,842%
+us-east4,Northern Virginia,256kib,3.521,71.000ms,584.800ms,723%
+us-east5,Columbus,256kib,4.195,59.600ms,338.300ms,467%
+us-south1,Dallas,256kib,4.433,56.400ms,293.800ms,420%
+us-west1,Oregon,256kib,4.092,61.100ms,158.100ms,158%
+us-west2,Los Angeles,256kib,4.488,55.700ms,400.300ms,618%
+us-west3,Salt Lake City,256kib,3.628,68.900ms,354.400ms,414%
+us-west4,Las Vegas,256kib,1.752,142.700ms,344.700ms,141%
+northamerica-northeast1,Montréal,2mib,5.655,353.700ms,1239.400ms,250%
+northamerica-northeast2,Toronto,2mib,3.085,648.200ms,1316.700ms,103%
+us-central1,Iowa,2mib,2.026,987.400ms,1007.700ms,2%
+us-east1,South Carolina,2mib,3.966,504.300ms,1078.300ms,113%
+us-east4,Northern Virginia,2mib,5.721,349.600ms,1616.500ms,362%
+us-east5,Columbus,2mib,3.649,548.100ms,2922.200ms,433%
+us-south1,Dallas,2mib,1.673,1195.500ms,1734.600ms,45%
+us-west1,Oregon,2mib,2.518,794.200ms,1799.700ms,126%
+us-west2,Los Angeles,2mib,2.326,859.800ms,1416.200ms,64%
+us-west3,Salt Lake City,2mib,3.537,565.400ms,1699.300ms,200%
+us-west4,Las Vegas,2mib,3.131,638.800ms,3025.700ms,373%
+northamerica-northeast1,Montréal,8kib,0.143,54.800ms,501.900ms,815%
+northamerica-northeast2,Toronto,8kib,0.283,27.600ms,455.400ms,1550%
+us-central1,Iowa,8kib,0.294,26.600ms,207.000ms,678%
+us-east1,South Carolina,8kib,0.263,29.700ms,588.700ms,1882%
+us-east4,Northern Virginia,8kib,0.311,25.100ms,144.300ms,474%
+us-east5,Columbus,8kib,0.319,24.500ms,284.700ms,1062%
+us-south1,Dallas,8kib,0.268,29.200ms,255.100ms,773%
+us-west1,Oregon,8kib,0.237,33.000ms,97.800ms,196%
+us-west2,Los Angeles,8kib,0.407,19.200ms,132.600ms,590%
+us-west3,Salt Lake City,8kib,0.283,27.600ms,228.100ms,726%
+us-west4,Las Vegas,8kib,0.429,18.200ms,245.200ms,1247%
+northamerica-northeast1,Montréal,256kib,3.209,77.900ms,677.600ms,769%
+northamerica-northeast2,Toronto,256kib,4.613,54.200ms,665.600ms,1128%
+us-central1,Iowa,256kib,4.950,50.500ms,462.100ms,815%
+us-east1,South Carolina,256kib,2.629,95.100ms,673.600ms,608%
+us-east4,Northern Virginia,256kib,2.273,110.000ms,577.600ms,425%
+us-east5,Columbus,256kib,3.149,79.400ms,438.500ms,452%
+us-south1,Dallas,256kib,3.272,76.400ms,426.400ms,458%
+us-west1,Oregon,256kib,3.056,81.800ms,269.600ms,229%
+us-west2,Los Angeles,256kib,1.265,197.600ms,470.400ms,138%
+us-west3,Salt Lake City,256kib,1.662,150.400ms,413.600ms,175%
+us-west4,Las Vegas,256kib,1.806,138.400ms,454.600ms,228%
+northamerica-northeast1,Montréal,2mib,2.959,676.000ms,3013.600ms,345%
+northamerica-northeast2,Toronto,2mib,2.110,948.000ms,1780.800ms,87%
+us-central1,Iowa,2mib,4.264,469.000ms,3640.200ms,676%
+us-east1,South Carolina,2mib,1.828,1093.800ms,1896.500ms,73%
+us-east4,Northern Virginia,2mib,1.922,1040.600ms,1050.200ms,0%
+us-east5,Columbus,2mib,3.553,562.900ms,1700.900ms,202%
+us-south1,Dallas,2mib,2.178,918.200ms,1545.100ms,68%
+us-west1,Oregon,2mib,3.106,644.000ms,456.500ms,-30%
+us-west2,Los Angeles,2mib,3.916,510.700ms,836.400ms,63%
+us-west3,Salt Lake City,2mib,4.489,445.500ms,783.100ms,75%
+us-west4,Las Vegas,2mib,5.306,376.900ms,499.500ms,32%
+northamerica-northeast1,Montréal,8kib,0.141,55.600ms,514.900ms,826%
+northamerica-northeast2,Toronto,8kib,0.237,32.900ms,364.000ms,1006%
+us-central1,Iowa,8kib,0.308,25.400ms,274.700ms,981%
+us-east1,South Carolina,8kib,0.268,29.100ms,568.400ms,1853%
+us-east4,Northern Virginia,8kib,0.275,28.400ms,423.400ms,1390%
+us-east5,Columbus,8kib,0.331,23.600ms,288.700ms,1123%
+us-south1,Dallas,8kib,0.284,27.500ms,276.100ms,903%
+us-west1,Oregon,8kib,0.235,33.200ms,96.400ms,190%
+us-west2,Los Angeles,8kib,0.357,21.900ms,240.100ms,996%
+us-west3,Salt Lake City,8kib,0.253,30.900ms,118.100ms,282%
+us-west4,Las Vegas,8kib,0.332,23.500ms,223.800ms,852%
+northamerica-northeast1,Montréal,256kib,2.688,93.000ms,723.100ms,677%
+northamerica-northeast2,Toronto,256kib,4.125,60.600ms,467.800ms,671%
+us-central1,Iowa,256kib,3.925,63.700ms,271.700ms,326%
+us-east1,South Carolina,256kib,1.929,129.600ms,691.200ms,433%
+us-east4,Northern Virginia,256kib,2.648,94.400ms,878.300ms,830%
+us-east5,Columbus,256kib,2.921,85.600ms,354.900ms,314%
+us-south1,Dallas,256kib,2.236,111.800ms,370.200ms,231%
+us-west1,Oregon,256kib,1.800,138.900ms,247.500ms,78%
+us-west2,Los Angeles,256kib,2.029,123.200ms,426.200ms,245%
+us-west3,Salt Lake City,256kib,1.625,153.800ms,356.500ms,131%
+us-west4,Las Vegas,256kib,2.111,118.400ms,584.400ms,393%
+northamerica-northeast1,Montréal,2mib,3.372,593.200ms,2946.100ms,396%
+northamerica-northeast2,Toronto,2mib,2.185,915.500ms,1736.500ms,89%
+us-central1,Iowa,2mib,4.020,497.500ms,3624.400ms,628%
+us-east1,South Carolina,2mib,1.666,1200.300ms,2264.700ms,88%
+us-east4,Northern Virginia,2mib,2.168,922.700ms,1707.900ms,85%
+us-east5,Columbus,2mib,2.144,933.000ms,1040.600ms,11%
+us-south1,Dallas,2mib,3.038,658.400ms,708.300ms,7%
+us-west1,Oregon,2mib,4.755,420.600ms,630.500ms,49%
+us-west2,Los Angeles,2mib,6.141,325.700ms,970.800ms,198%
+us-west3,Salt Lake City,2mib,3.713,538.700ms,797.800ms,48%
+us-west4,Las Vegas,2mib,5.877,340.300ms,618.300ms,81%
+northamerica-northeast1,Montréal,8kib,0.255,30.600ms,539.500ms,1663%
+northamerica-northeast2,Toronto,8kib,0.226,34.500ms,477.000ms,1282%
+us-central1,Iowa,8kib,0.334,23.400ms,124.000ms,429%
+us-east1,South Carolina,8kib,0.268,29.100ms,479.900ms,1549%
+us-east4,Northern Virginia,8kib,0.273,28.600ms,422.000ms,1375%
+us-east5,Columbus,8kib,0.376,20.800ms,347.800ms,1572%
+us-south1,Dallas,8kib,0.425,18.400ms,261.600ms,1321%
+us-west1,Oregon,8kib,0.436,17.900ms,98.100ms,448%
+us-west2,Los Angeles,8kib,0.266,29.400ms,258.200ms,778%
+us-west3,Salt Lake City,8kib,0.257,30.400ms,212.900ms,600%
+us-west4,Las Vegas,8kib,0.360,21.700ms,251.000ms,1056%
+northamerica-northeast1,Montréal,256kib,2.674,93.500ms,657.000ms,602%
+northamerica-northeast2,Toronto,256kib,4.039,61.900ms,374.100ms,504%
+us-central1,Iowa,256kib,4.892,51.100ms,276.200ms,440%
+us-east1,South Carolina,256kib,3.243,77.100ms,638.500ms,728%
+us-east4,Northern Virginia,256kib,4.529,55.200ms,567.000ms,927%
+us-east5,Columbus,256kib,5.051,49.500ms,376.700ms,661%
+us-south1,Dallas,256kib,5.938,42.100ms,356.700ms,747%
+us-west1,Oregon,256kib,4.892,51.100ms,118.800ms,132%
+us-west2,Los Angeles,256kib,8.772,28.500ms,439.800ms,1443%
+us-west3,Salt Lake City,256kib,2.124,117.700ms,212.200ms,80%
+us-west4,Las Vegas,256kib,4.980,50.200ms,314.100ms,525%
+northamerica-northeast1,Montréal,2mib,5.790,345.400ms,1120.300ms,224%
+northamerica-northeast2,Toronto,2mib,2.736,731.000ms,1363.000ms,86%
+us-central1,Iowa,2mib,2.744,728.900ms,852.400ms,16%
+us-east1,South Carolina,2mib,3.633,550.500ms,1138.800ms,106%
+us-east4,Northern Virginia,2mib,5.308,376.800ms,1594.300ms,323%
+us-east5,Columbus,2mib,3.472,576.100ms,2976.500ms,416%
+us-south1,Dallas,2mib,1.732,1154.700ms,2112.100ms,82%
+us-west1,Oregon,2mib,4.448,449.600ms,2786.400ms,519%
+us-west2,Los Angeles,2mib,5.784,345.800ms,2867.000ms,729%
+us-west3,Salt Lake City,2mib,2.355,849.400ms,1383.100ms,62%
+us-west4,Las Vegas,2mib,3.109,643.200ms,1071.200ms,66%

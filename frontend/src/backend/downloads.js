@@ -53,10 +53,14 @@ export class Downloads {
 
             let response = await axios.get(URL);
             let serverResponse = await axios.get(`https://regionalized-bucket-perf-mgsjbmdcoa-uw.a.run.app/download/${bucketName}/${fileName}`)
+
+            let serverClientLatency = serverResponse.headers['rbf-client-library-latency']
+
             console.log(`server: ${bucketName}, client: ${response.duration}; server: ${serverResponse.duration}`)
             return {
                 client: response.duration,
-                server: serverResponse.duration
+                server: serverResponse.duration,
+                serverClientLatency: parseFloat(serverClientLatency)
             };
         } catch (e) {
             return DEFAULT_TIME_TAKEN;
@@ -85,15 +89,9 @@ export class Downloads {
 
         const bucketName = `gcsrbpa-${bucket}`;
 
-        const URL = `https://storage.googleapis.com/${bucketName}/${fileName}`;
-        const {
-            client, server
-        } = await this.getDurationOfGetRequest(URL, bucketName, fileName);
+        const URL = `https://storage.googleapis.com/${bucketName}/${fileName}?alt=media`;
 
-        return {
-            client: client,
-            server: server,
-        }
+        return this.getDurationOfGetRequest(URL, bucketName, fileName);
 
         // return timeTaken / 1000; // return in units of seconds
     }
@@ -110,7 +108,7 @@ export class Downloads {
      */
     async benchmarkSingleDownload(fileName, bucketName) {
         const {
-            client, server
+            client, server, serverClientLatency
         } = await this.getDurationInSeconds(fileName, bucketName);
 
         let fileSizeBytes = FILESIZE_BYTES[fileName] || fileName;
@@ -143,10 +141,12 @@ export class Downloads {
             'fileName': fileName,
             'timeTakenClient': (client).toFixed(FLOAT_ROUND_DIGITS),
             'timeTakenServer': (server).toFixed(FLOAT_ROUND_DIGITS),
+            'timeTakenServerClient': (serverClientLatency).toFixed(FLOAT_ROUND_DIGITS),
+            'timeTakenServerHop': (server - serverClientLatency).toFixed(FLOAT_ROUND_DIGITS),
             'percentChange': getPercentageChange(client, server),
             'fileSizeBytes': String(fileSizeBytes),
             'speedBps': speedBps.toFixed(FLOAT_ROUND_DIGITS),
-            'speedMiBps': speedMiBps.toFixed(FLOAT_ROUND_DIGITS) ,
+            'speedMiBps': speedMiBps.toFixed(FLOAT_ROUND_DIGITS)
         }]
 
         return result;

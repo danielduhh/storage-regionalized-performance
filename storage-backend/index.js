@@ -50,33 +50,19 @@ const MD5_SUMS = Object.freeze({
 app.use(compression());
 
 // // Allow HTTP requests from any origin
-app.use(cors([
-    // {origin: 'https://regionalized-bucket-perf-mgsjbmdcoa-uw.a.run.app'},
-    // {origin: 'http://localhost:8080'},
-    {origin: 'https://storage.googleapis.com/rbf-test/index.html'}
-]))
+app.use(cors({exposedHeaders: ['rbf-client-library-latency'], origin: [
+        // {origin: 'https://regionalized-bucket-perf-mgsjbmdcoa-uw.a.run.app'},
+        {origin: 'http://localhost:8080'},
+        {origin: 'https://storage.googleapis.com/rbf-test/index.html'}
+    ]}))
 
-// const allowList = ['https://regionalized-bucket-perf-mgsjbmdcoa-uw.a.run.app', 'http://localhost:8080']
-// const corsOptions = {
-//     origin: function (origin, callback) {
-//         if (allowList.indexOf(origin) !== -1) {
-//             callback(null, true)
-//         } else {
-//             callback(new Error('Not allowed by CORS'))
-//         }
-//     }
-// }
-
-// app.use(cors(corsOptions))
-// app.use(function(req, res, next) {
+app.use(function(req, res, next) {
+    // Turn off Cache to even the playing field
+    res.set('Cache-Control', 'no-store')
 //     res.header("Access-Control-Allow-Origin", "*");
 //     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-//     next();
-// });
-
-// app.get('/', (req, res) => {
-//     res.sendFile(express.static(path.join(__dirname, 'build')))
-// });
+    next();
+});
 
 // /**
 //  * Handle GET request by generating and returning a signed URL to be used to upload a file.
@@ -119,7 +105,9 @@ app.get('/stream/:bucketName/:fileName', async (req, res) => {
 
     const {Storage} = require('@google-cloud/storage');
     const storage = new Storage();
+    let start = 0, end = 0;
 
+    start = performance.now();
     await storage
         .bucket(bucketName)
         .file(fileName)
@@ -127,21 +115,36 @@ app.get('/stream/:bucketName/:fileName', async (req, res) => {
         .pipe(res)
         .on('finish', () => {
             // The file download is complete
-            console.log(`done`)
+            res.send(`done`)
         });
+    end = performance.now();
+
 });
 
 app.get('/download/:bucketName/:fileName', async (req, res) => {
-    const bucketName = req.params.bucketName;
-    const fileName = req.params.fileName;
-
     const {Storage} = require('@google-cloud/storage');
     const storage = new Storage();
 
-    let contents = await storage.bucket(bucketName).file(fileName).download()
+    const bucketName = req.params.bucketName;
+    const fileName = req.params.fileName;
+    let start = 0, end = 0;
+    const destination = path.join(__dirname, 'tmp', `${fileName}`)
 
-    res.write(contents.toString())
-    res.end()
+    start = performance.now();
+    // let contents = await storage.bucket(bucketName).file(fileName).download({destination})
+    let contents = await storage.bucket(bucketName).file(fileName).download()
+    end = performance.now();
+    res.set('rbf-client-library-latency', `${end - start}`);
+    res.writeHead(200, {
+        'Content-Disposition': `attachment; filename="${fileName}"`,
+        'Content-Type': 'text/plain',
+    })
+
+    const download = Buffer.from(contents, 'base64')
+    res.end(download)
+
+
+    // res.download(destination)
 });
 
 app.listen(PORT, () => console.log(`Express server listening on port ${PORT}`));

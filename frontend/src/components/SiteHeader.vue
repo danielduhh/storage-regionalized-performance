@@ -23,7 +23,7 @@
     </header>
     <h3 class="subtitle">{{ subtitle }}</h3>
     <p>Browser - Static website running on multi-region Cloud Storage bucket (cache turned off). <br/>
-      Server - Node.js API running on us-west1 instance serving files via Storage client library </p>
+      Server - Node.js API running on Cloud Run us-west1 instance serving files contents from Storage client library </p>
   </div>
 </template>
 

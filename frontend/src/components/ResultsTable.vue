@@ -25,6 +25,8 @@
           <th>Speed (MiB/s)</th>
           <th>Time Taken (Browser)</th>
           <th>Time Taken (Server)</th>
+          <th>Time Taken (Server Client Library)</th>
+          <th>Time Taken (Server Hop)</th>
           <th>Browser Latency Improvement</th>
         </tr>
       </thead>
@@ -36,6 +38,8 @@
           <td>{{ result.speedMiBps }}</td>
           <td>{{ result.timeTakenClient }}ms</td>
           <td>{{ result.timeTakenServer }}ms</td>
+          <td>{{result.timeTakenServerClient}}ms</td>
+          <td>{{result.timeTakenServerHop}}ms</td>
           <td>{{ result.percentChange }}%</td>
         </tr>
       </tbody>
