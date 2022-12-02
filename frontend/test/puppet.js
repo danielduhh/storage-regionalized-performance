@@ -21,7 +21,7 @@ const runTest = async () => {
   });
 
   const allResultsSelector = 'table tbody tr:nth-child(33)';
-  await page.waitForSelector(allResultsSelector, {timeout: 1000000, visible: true});
+  await page.waitForSelector(allResultsSelector, {timeout: 0, visible: true});
 
   const resultsSelector = 'table tbody tr';
 
