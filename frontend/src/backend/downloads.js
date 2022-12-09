@@ -71,7 +71,7 @@ export class Downloads {
             });
 
             let response = await axios.get(URL, {retry:3 , retryDelay: 3000});
-            let serverResponse = await axios.get(`https://regionalized-bucket-perf-mgsjbmdcoa-uw.a.run.app/download/${bucketName}/${fileName}`, {retry: 3, retryDelay: 3000})
+            let serverResponse = await axios.get(`https://regionalized-bucket-perf-mgsjbmdcoa-uc.a.run.app/download/${bucketName}/${fileName}`, {retry: 3, retryDelay: 3000})
 
             let serverClientLatency = serverResponse.headers['rbf-client-library-latency']
 

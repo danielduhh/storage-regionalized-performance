@@ -6,6 +6,8 @@ const runTest = async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.setRequestInterception(true);
+  await page.setCacheEnabled(false);
+
 
   page.on('request', interceptedRequest => {
     if (interceptedRequest.isInterceptResolutionHandled()) return;
